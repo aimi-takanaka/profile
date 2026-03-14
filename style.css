@@ -1,11 +1,11 @@
-.hero {
+#hero {
   display: flex;
   /* ↑これをつけた瞬間、子要素が横並びになる */
   align-items: center;
   gap: 2rem;
 }
 
-.hero img {
+#hero img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -13,4 +13,8 @@
   /*↑画面の幅が足りないとき子要素が自動で縮もうとする性質があります。​flex-shrink: 0 をつけると「この要素は縮めないで！」という意味になります。*/
   object-fit: cover;
   /*↑「画像を縦横比を保ったまま、指定したサイズにはめ込む」** プロパティ*/
+}
+
+.hero-text p {
+  color: gray;
 }
