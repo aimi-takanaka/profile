@@ -16,5 +16,18 @@
 }
 
 .hero-text p {
+  font-size: 0.5rem;
   color: gray;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+li {
+  font-size: 0.7rem;
 }
