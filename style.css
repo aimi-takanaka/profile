@@ -16,9 +16,12 @@
 }
 
 .hero-text p {
-  font-size: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.9rem;
   color: gray;
 }
+
 
 h2 {
   font-size: 1rem;
@@ -30,4 +33,16 @@ p {
 
 li {
   font-size: 0.7rem;
+}
+
+#skills>ul>li+li {
+  margin-top: 1rem;
+}
+
+.pokemon {
+  display: inline-block;
+}
+
+.pokemon img {
+  display: block;
 }
