@@ -47,13 +47,16 @@ p {
   border-radius: 1rem;
 }
 
-
+#skills {
+  background-color: #F5FAE1;
+  margin: 1rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 1rem;
+}
 
 li {
   font-size: 0.7rem;
 }
-
-
 
 #skills>ul>li+li {
   margin-top: 1rem;
