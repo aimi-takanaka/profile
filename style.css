@@ -24,21 +24,36 @@ body {
   margin-bottom: 0;
   font-size: 0.9rem;
   color: #EEE6CA;
+  /* background-color: #EEE6CA;
+  border-radius: 0.8rem; */
+
 }
 
 
 h2 {
   font-size: 1rem;
   color: #896C6C;
+  margin: 0.5rem 0rem;
 }
 
 p {
   font-size: 0.7rem;
 }
 
+#about {
+  background-color: #F5FAE1;
+  margin: 1rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 1rem;
+}
+
+
+
 li {
   font-size: 0.7rem;
 }
+
+
 
 #skills>ul>li+li {
   margin-top: 1rem;
