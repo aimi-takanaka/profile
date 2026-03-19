@@ -15,13 +15,15 @@ for (let i = 1; i <= 9; i++) {
       const pokemon = document.createElement('div');
       pokemon.classList.add('pokemon');
 
+      const newImg = document.createElement('img');
+      newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`;
       // 途中です！！！
 
     })
   }
 
-  const newImg = document.createElement('img');
-  newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`;
+
+
 
   pokemon.appendChild(newImg);
   section.appendChild(pokemon);
