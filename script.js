@@ -32,9 +32,23 @@ section.appendChild(createRow(bottomRow));
 // お問合せフォーム
 
 const form = document.querySelector('form');
-const listContainer = document.querySelector('#list')
+const listContainer = document.querySelector('#list');
 
 const addList = (name, email, message) => {
   const newLi = document.createElement('li');
-  newLi.textContent = 
-}
+  newLi.textContent = `名前: ${name} / メール: ${email} / メッセージ: ${message}`;
+  listContainer.appendChild(newLi);
+};
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  addList(name, email, message);
+
+  form.reset();
+
+});
