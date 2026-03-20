@@ -152,10 +152,102 @@ li {
 }
 
 button {
-  margin: 1rem;
+  margin: 1rem 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   background-color: #EEE6CA;
   color: #896C6C;
   font-size: 0.5rem;
+}
+
+#footer {
+  background-color: #896C6C;
+  color: #E5BEB5;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 1rem;
+}
+
+.footer-logo {
+  font-weight: bold;
+}
+
+#footer nav {
+  margin-left: auto;
+
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #E5BEB5;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+/*600px以下*/
+@media(max-width: 600px) {
+
+  /* header */
+  header {
+    position: relative;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #896C6C;
+    padding: 1rem 2rem;
+  }
+
+  #nav.open {
+    display: block;
+  }
+
+  #nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* hero */
+  #hero {
+    flex-direction: column;
+    /* 縦並びに */
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+
+  /* about・skills・contact */
+  #about,
+  #skills,
+  #contact {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+
+  /* footer */
+  #footer {
+    flex-direction: column;
+    /* 縦並びに */
+    gap: 0.8rem;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  #footer nav {
+    margin-left: 0;
+    /* 右寄せを解除 */
+  }
 }
