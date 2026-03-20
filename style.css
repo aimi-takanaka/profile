@@ -37,7 +37,7 @@ header {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 12px;
+  gap: 19px;
   margin: 0;
   padding: 0;
 }
@@ -62,8 +62,8 @@ nav a:hover {
 }
 
 #hero img {
-  width: 120px;
-  height: 120px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   flex-shrink: 0;
   /*↑画面の幅が足りないとき子要素が自動で縮もうとする性質があります。​flex-shrink: 0 をつけると「この要素は縮めないで！」という意味になります。*/
@@ -81,9 +81,14 @@ nav a:hover {
 
 }
 
+h1 {
+  font-size: 2.3rem;
+  text-decoration: underline;
+  color: #896C6C;
+}
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #896C6C;
   margin: 0.5rem 0rem;
 }
@@ -95,14 +100,14 @@ p {
 #about {
   background-color: #F5FAE1;
   margin: 1rem;
-  padding: 0.1rem 0.3rem;
+  padding: 1rem 1rem 1rem 2rem;
   border-radius: 1rem;
 }
 
 #skills {
   background-color: #F5FAE1;
   margin: 1rem;
-  padding: 0.1rem 0.3rem;
+  padding: 1rem 1rem 1rem 2rem;
   border-radius: 1rem;
 }
 
