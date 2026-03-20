@@ -139,3 +139,23 @@ li {
   object-fit: contain;
 }
 
+#contact {
+  background-color: #F5FAE1;
+  margin: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.form-group {
+  color: #896C6C;
+  font-size: 0.7rem;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #EEE6CA;
+  color: #896C6C;
+  font-size: 0.5rem;
+}
