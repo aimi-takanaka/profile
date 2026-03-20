@@ -1,3 +1,5 @@
+
+// ポケモン
 // https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
 
 const section = document.getElementById('pokemon');
@@ -26,3 +28,13 @@ function createRow(numbers) {
 
 section.appendChild(createRow(topRow));
 section.appendChild(createRow(bottomRow));
+
+// お問合せフォーム
+
+const form = document.querySelector('form');
+const listContainer = document.querySelector('#list')
+
+const addList = (name, email, message) => {
+  const newLi = document.createElement('li');
+  newLi.textContent = 
+}
