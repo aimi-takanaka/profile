@@ -119,6 +119,10 @@ li {
   margin-top: 1rem;
 }
 
+#skills>ul>li>ul {
+  padding-left: 1rem;
+}
+
 #pokemon {
   display: flex;
   flex-direction: column;
