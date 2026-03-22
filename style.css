@@ -259,6 +259,16 @@ button {
     height: 80px;
   }
 
+  /* お問合せフォーム */
+  .form-group {
+    flex-direction: column;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+  }
+
   /* footer */
   #footer {
     flex-direction: column;
