@@ -156,6 +156,12 @@ li {
   font-size: 0.7rem;
   display: flex;
   align-items: flex-start;
+  margin-bottom: 0.8rem;
+}
+
+.form-group label {
+  width: 6rem;
+  flex-shrink: 0;
 }
 
 button {
