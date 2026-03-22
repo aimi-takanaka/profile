@@ -154,6 +154,8 @@ li {
 .form-group {
   color: #896C6C;
   font-size: 0.7rem;
+  display: flex;
+  align-items: flex-start;
 }
 
 button {
