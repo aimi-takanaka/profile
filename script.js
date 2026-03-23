@@ -61,4 +61,4 @@ hamburger.addEventListener('click', () => {
   nav.classList.toggle('open');
 });
 
-const pokemons = document.querySelectorAll('pokemon')
+const pokemons = document.querySelectorAll('pokemon');
