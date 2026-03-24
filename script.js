@@ -61,4 +61,14 @@ hamburger.addEventListener('click', () => {
   nav.classList.toggle('open');
 });
 
-const pokemons = document.querySelectorAll('pokemon');
+const pokemons = document.querySelectorAll('.pokemon');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.3 });
+
+pokemons.forEach(pokemon => observer.observe(pokemon));
