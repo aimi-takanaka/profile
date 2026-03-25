@@ -141,7 +141,7 @@ li {
 .pokemon {
   transform: scale(0.3);
   opacity: 0;
-  transition: transform 0.5s ease, opasity 0.5s ease;
+  transition: transform 1.2s ease, opasity 1.2s ease;
 }
 
 .pokemon.visible {
